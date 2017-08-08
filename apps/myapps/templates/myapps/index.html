@@ -1,0 +1,15 @@
+{% load sass_tags %}
+{% load bootstrap3 %}
+
+<link rel="stylesheet" type="text/css" href="{% sass_src 'scss/styles.scss' %}">
+
+{% if myapps %}
+  <ul>
+  {% for myapp in myapps %}
+    {% comment %} <li><a href="/polls/{{ question.id }}/">{{ question.question_text }}</a></li> {% endcomment %}
+    <li><a href="{% url 'myapps:detail' myapp.id %}">{{ myapp.field1 }}</a></li>
+  {% endfor %}
+  </ul>
+{% else %}
+  <p>No polls are available.</p>
+{% endif %}
