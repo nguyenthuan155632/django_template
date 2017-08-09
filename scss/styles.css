@@ -1,4 +1,7 @@
-a {
-  color: red; }
+li {
+  list-style: none; }
+  li a {
+    color: green;
+    text-decoration: none; }
 
 /*# sourceMappingURL=../../../../../../../../../../static/scss/styles.css.map */

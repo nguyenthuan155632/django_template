@@ -5,5 +5,5 @@
 		"../../Users/vensera/workplaces/python/django/django_template/apps/myapps/static/scss/styles.scss"
 	],
 	"names": [],
-	"mappings": "AAAA,AAAA,CAAC,CAAC;EACA,KAAK,EAAE,GAAG,GACX"
+	"mappings": "AAAA,AAAA,EAAE,CAAC;EACD,UAAU,EAAE,IAAI,GAKjB;EAND,AAEE,EAFA,CAEA,CAAC,CAAC;IACA,KAAK,EAAE,KAAK;IACZ,eAAe,EAAE,IAAI,GACtB"
 }
